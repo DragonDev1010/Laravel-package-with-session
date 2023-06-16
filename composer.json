@@ -1,0 +1,25 @@
+{
+    "name": "great/weatherforecast",
+    "autoload": {
+        "psr-4": {
+            "Great\\Weatherforecast\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Great\\Weatherforecast\\Providers\\WeatherForecastServiceProvider"
+            ],
+            "aliases": {
+              "WeatherForecast": "Great\\Weatherforecast\\Facades\\WeatherForecastFacade"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "DragonDev1010",
+            "email": "provic0099@gmail.com"
+        }
+    ],
+    "require": {}
+}
